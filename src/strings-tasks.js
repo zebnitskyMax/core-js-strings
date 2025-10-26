@@ -1,11 +1,3 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-shadow */
-/* eslint-disable array-callback-return */
-/* eslint-disable prefer-const */
-/* eslint-disable no-plusplus */
-/* eslint-disable no-unused-expressions */
-/* eslint-disable no-else-return */
-/* eslint-disable prettier/prettier */
 /* *******************************************************************************************
  *                                                                                           *
  * Please read the following tutorial before implementing tasks:                              *
@@ -48,7 +40,6 @@ function getStringLength(value) {
  *   isString('test') => true
  *   isString(new String('test')) => true
  */
-// eslint-disable-next-line consistent-return
 function isString(value) {
   if (typeof value === 'string' || value instanceof String) {
     return true;
@@ -304,7 +295,6 @@ function orderAlphabetically(str) {
  *   containsSubstring('JavaScript is Fun', 'Python') => false
  *   containsSubstring('12345', '34') => true
  */
-// eslint-disable-next-line consistent-return
 function containsSubstring(str, substring) {
   if (typeof str === 'string') {
     return str.includes(substring);

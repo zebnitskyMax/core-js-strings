@@ -46,19 +46,16 @@ describe('strings-tasks', () => {
     );
     assert.equal(tasks.isString('123'), true, '"123" is correct string');
     assert.equal(
-      // eslint-disable-next-line no-new-wrappers
       tasks.isString(new String('test')),
       true,
       '"test" in String is correct string'
     );
     assert.equal(
-      // eslint-disable-next-line no-new-wrappers
       tasks.isString(new String('')),
       true,
       'empty string value in String is correct string'
     );
     assert.equal(
-      // eslint-disable-next-line no-new-wrappers
       tasks.isString(new String('123')),
       true,
       '"123" in String is correct string'
